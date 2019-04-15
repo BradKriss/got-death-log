@@ -7,6 +7,9 @@
         {{ charDesc }}
       </p>
     </div>
+    <div class="px-6 py-4">
+      <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#1 - Episode 2</span>
+    </div>
   </div>
 </template>
 
