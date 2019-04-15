@@ -1,10 +1,10 @@
 # got-death-log
 
-> SOILER ALERT :: Season 8 - Who&#39;s livin and who&#39;s... not
+> SPOILER ALERT :: Season 8 - Who&#39;s livin and who&#39;s... not
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
