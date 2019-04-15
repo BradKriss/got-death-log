@@ -36,6 +36,10 @@ export default {
    */
   modules: [],
 
+  server: {
+    port: 3001
+  },
+
   /*
    ** Build configuration
    */
