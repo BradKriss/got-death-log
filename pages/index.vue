@@ -6,10 +6,38 @@
     </section>
     <section id="deaths" class="">
       <death
-        char-name="Beric Dondarrion"
-        :char-img="require('~/assets/img/beric-dondarrion-ign.jpg')"
-        char-desc="Beric appeared in a blink-and-you-missed-him moment back in Season 1 (played by a different actor initially) but then later rebounded in a big way in Season 3 as the oft-resurrected leader of a group of neutral Riverlands resistance fighters called the Brotherhood Without Banners. Beric’s band of warriors gave Arya a place to hide for a bit while also introducing us to the Lord of Light’s ability to breathe life back into the dead. Basically, Melisandre gave the whole “bring someone back from beyond” spell a whirl on Jon because of Beric’s success rate when it came to cheating death."
-      ></death>
+        char-name="Ned Umber (Umber Boy)"
+        :char-img="require('~/assets/img/ned-umber.jpg')"
+      >
+        <template v-slot:description>
+          <p>
+            Ned Umber was the 10-year-old Lord of the Last Hearth. Ned was
+            likely named for Lord Eddard Stark by his father, Jon Umber, known
+            as “Littlejon,” in contrast to his own father, “Greatjon” Umber.
+          </p>
+          <p>
+            In the aftermath of the Battle of the Bastards, many Northern lords
+            and Knights of the Vale wanted to see Ned Umber stripped of his land
+            and titles, but in the Season 7 premiere, Jon Snow refuses. Ned
+            Umber and another child of traitors, Alys Karstark, declare their
+            undying allegiance to House Stark.
+          </p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >1st Death</span
+          >
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 1</span
+          >
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Not in Death Pool</span
+          >
+        </template>
+      </death>
     </section>
   </div>
 </template>
@@ -22,7 +50,6 @@ export default {
   }
 }
 </script>
-
 
 <style lang="scss">
 #main-wrap {
