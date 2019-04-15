@@ -10,7 +10,7 @@
         :char-img="require('~/assets/img/ned-umber.jpg')"
       >
         <template v-slot:description>
-          <p>
+          <p class="pb-2">
             Ned Umber was the 10-year-old Lord of the Last Hearth. Ned was
             likely named for Lord Eddard Stark by his father, Jon Umber, known
             as “Littlejon,” in contrast to his own father, “Greatjon” Umber.
