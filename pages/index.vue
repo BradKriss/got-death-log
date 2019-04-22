@@ -7,7 +7,7 @@
     <section id="deaths" class="">
       <death
         char-name="Ned Umber (Umber Boy)"
-        :char-img="require('~/assets/img/ned-umber.jpg')"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1555895946/ned-umber.jpg"
       >
         <template v-slot:description>
           <p class="pb-2">
