@@ -73,7 +73,7 @@
     </section>
     <section id="deaths" class="">
       <death
-        char-name="Baric"
+        char-name="Baric Dondarrion"
         char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1555895946/beric-dondarrion-ign.jpg"
       >
         <template v-slot:description>
