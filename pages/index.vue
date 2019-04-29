@@ -26,7 +26,7 @@
         <template v-slot:badges>
           <span
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
-            >1st Death</span
+            >1st Minor Death</span
           >
           <span
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
@@ -35,6 +35,90 @@
           <span
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Not in Death Pool</span
+          >
+        </template>
+      </death>
+    </section>
+    <section id="deaths" class="">
+      <death
+        char-name="Eddison Tollett (Ed)"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1556508470/eddison-tollett.jpg"
+      >
+        <template v-slot:description>
+          <p class="pb-2"></p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >1st Major Death</span
+          >
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 3</span
+          >
+        </template>
+      </death>
+    </section>
+    <section id="deaths" class="">
+      <death
+        char-name="Lyanna Mormont"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1556508095/lyanna-mormont.jpg"
+      >
+        <template v-slot:description>
+          <p class="pb-2"></p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 3</span
+          >
+        </template>
+      </death>
+    </section>
+    <section id="deaths" class="">
+      <death
+        char-name="Baric"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1555895946/beric-dondarrion-ign.jpg"
+      >
+        <template v-slot:description>
+          <p class="pb-2"></p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 3</span
+          >
+        </template>
+      </death>
+    </section>
+    <section id="deaths" class="">
+      <death
+        char-name="Theon Greyjoy"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1556508722/theon-greyjoy.jpg"
+      >
+        <template v-slot:description>
+          <p class="pb-2"></p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 3</span
+          >
+        </template>
+      </death>
+    </section>
+    <section id="deaths" class="">
+      <death
+        char-name="Jorah Mormont"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1556508309/jorah-mormont.png"
+      >
+        <template v-slot:description>
+          <p class="pb-2"></p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 3</span
           >
         </template>
       </death>
