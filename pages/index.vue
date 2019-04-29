@@ -206,7 +206,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'SOILER ALERT :: Season 8 - Deaths'
+          content: 'SPOILER ALERT :: Season 8 - Deaths'
         }
       ]
     }
