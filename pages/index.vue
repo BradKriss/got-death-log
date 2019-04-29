@@ -49,10 +49,6 @@
         </template>
         <template v-slot:badges>
           <span
-            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
-            >1st Major Death</span
-          >
-          <span
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Episode 3</span
           >
@@ -84,6 +80,10 @@
           <p class="pb-2"></p>
         </template>
         <template v-slot:badges>
+          <span
+            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >1st Death Pool Death</span
+          >
           <span
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Episode 3</span
