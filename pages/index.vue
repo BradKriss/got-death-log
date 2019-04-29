@@ -191,6 +191,25 @@ import Death from '../components/Death.vue'
 export default {
   components: {
     Death
+  },
+  head() {
+    return {
+      title: 'GoT Death Log',
+      meta: [
+        {
+          hid: 'og-image',
+          name: 'og:image',
+          property: 'og:image',
+          content:
+            'https://res.cloudinary.com/bradkriss/image/upload/v1556559195/got.jpg'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'SOILER ALERT :: Season 8 - Deaths'
+        }
+      ]
+    }
   }
 }
 </script>
