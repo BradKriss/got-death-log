@@ -68,6 +68,10 @@
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Episode 3</span
           >
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Not in Death Pool</span
+          >
         </template>
       </death>
     </section>
@@ -88,6 +92,10 @@
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Episode 3</span
           >
+          <span
+            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >In Death Pool</span
+          >
         </template>
       </death>
     </section>
@@ -104,6 +112,10 @@
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Episode 3</span
           >
+          <span
+            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >In Death Pool</span
+          >
         </template>
       </death>
     </section>
@@ -119,6 +131,30 @@
           <span
             class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
             >Episode 3</span
+          >
+          <span
+            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >In Death Pool</span
+          >
+        </template>
+      </death>
+    </section>
+    <section id="deaths" class="">
+      <death
+        char-name="The Night King"
+        char-img="https://res.cloudinary.com/bradkriss/image/upload/f_auto,q_auto/v1556535664/night-king.jpg"
+      >
+        <template v-slot:description>
+          <p class="pb-2"></p>
+        </template>
+        <template v-slot:badges>
+          <span
+            class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >Episode 3</span
+          >
+          <span
+            class="inline-block bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"
+            >In Death Pool</span
           >
         </template>
       </death>
